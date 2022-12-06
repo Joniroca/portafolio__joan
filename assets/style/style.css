@@ -30,13 +30,10 @@ section{
     margin: 0px;
 }
 main{
-    /* overflow-x: clip; */
     width: 100%;
-    /* max-width: 100%; */
 }
 body {
     margin: 0;
-    /* overflow-x: clip; */
     width: 100%;
 }
 
@@ -97,9 +94,7 @@ body {
         .nav__menu{
             flex-direction: column;
             align-items: center;
-            /* margin-right: 20px; */
             background-color: var(--colorSecondaryGrafiant);
-            /* position: fixed; hace que el icono se mueva a la izquierda, es como si dejara de ocupar ese espacio en el que estaba asignado y se queda pegado en es pasición*/
             position: fixed;
             top: 60px;
             left: 0%;
@@ -157,20 +152,9 @@ body {
         }
         #article__id{
             color: var(--colorTypography);
-            /* top: 221px; */
             width: 100%;
         }
         .titulo{
-            /* ----|
-                <section id="parte__1" class="partes">
-                    <article id="srticle__id" class="">
-    
-                        <h1 id="" class="titulo"> Creative UI Designer Joan Rodíguez Based in Colombia</h1>
-    
-                    </article>      
-                </section>
-            |----*/
-    
             color: var(--colorTypography);
             border-radius: nullpx;
             font-family: var(--font-popins);
@@ -179,76 +163,33 @@ body {
             line-height: 39px;
             margin: 8px;
             border-radius: nullpx;
-            /* margin-right: 33px; */
         }
         .btt__header {
             display: flex;
             justify-content: center;
-            /* height: 100%; */
             align-items: center;
         }
-        /* 
-        #container_button__header {
-            display: flex;
-            justify-content: center;
-            height: 100%;
-            align-items: center;
-        } */
         #button__header {
-            /* padding: 15px; */
             display: flex;
             flex-direction: column;
         }
         #boton1{
-            /* ----|
-                <section id="parte__1" class="partes">
-                    <section id="" class="">
-                        <div id="button__header" class="button">
-    
-                            <button id="boton1" class="botones">
-                                <a id="btt1" href="#">Hire me</a>
-                            </button>
-    
-                        </div>
-                    </section>      
-                </section>  
-            |----*/
+            
     
             display: flex;
             flex-direction: row;
             justify-content: center;
             align-items: center;
             padding: 0px;
-            /* position: absolute; */
-            /* width: 200px; */
             width: 200px;
             height: 50px;
-            /* left: 3px; */
-            /* top: -16px; */
             position: relative;
             border-radius: 30px;
             background: #FFFFFF4D;
-            /* border: 1.53px solid; */
-            /* border-image-source: linear-gradient(135deg, rgba(255, 255, 255, 0.6) 0%, #000000 100%); */
-            /* border: 1.53px solid; */
             box-shadow: 0px 10px 20px 0px #00000026;
             margin-bottom: 10px;
         }
         #btt1 {
-            /* ----|
-                <section id="parte__1" class="partes">
-                    <section id="" class="">
-                        <div id="button__header" class="button">
-                            <button id="boton1" class="botones">
-    
-                                <a id="btt1" href="#">Hire me</a>
-    
-                            </button>
-                        </div>
-                    </section>      
-                </section>     
-            |----*/
-    
             color: var(--colorTypography);
             text-decoration: none;
             font-family: var(--font-popins);
@@ -261,75 +202,23 @@ body {
             height: 24px;
         }
         #boton1:hover{
-            /* ----|
-                <section id="parte__1" class="partes">
-                    <section id="" class="">
-                        <div id="button__header" class="button">
-    
-                            <button id="boton1" class="botones">
-                                <a id="btt1" href="#">Hire me</a>
-                            </button>
-    
-                        </div>
-                    </section>      
-                </section>
-            |----*/
-    
-            /* Colors */
             background-blend-mode: overlay;
             background: linear-gradient(135deg, rgba(255, 255, 255, 0.6) 0%, #000000 100%);
         }
         #boton2{
-            /* ----|
-                <section id="parte__1" class="partes">
-                    <section id="" class="">
-                        <div id="button__header" class="button">
-    
-                            <button id="boton2" class="botones">
-                                <a id="btt2" href="#">Download CV</a>
-                            </button>
-    
-                        </div>
-                    </section>      
-                </section>   
-            |----*/
-    
-    
             display: flex;
             flex-direction: row;
             justify-content: center;
             align-items: center;
-            /* padding: 4px; */
-            /* position: absolute; */
-            /* width: 200px; */
             width: 200px;
             height: 50px;
-            /* left: 3px; */
-            /* top: -16px; */
             position: relative;
             border-radius: 30px;
             background: linear-gradient(107.21deg, #C961DE 24.43%, #2954A3 68.95%);
-            /* border: 1.53px solid; */
-            /* border-image-source: linear-gradient(135deg, rgba(255, 255, 255, 0.6) 0%, #000000 100%); */
-            /* border: 1.53px solid; */
             box-shadow: 0px 10px 20px 0px #00000026;
             margin-top: 10px;
         }
         #btt2{
-            /* ----|
-                <section id="parte__1" class="partes">
-                    <section id="" class="">
-                        <div id="button__header" class="button">
-                            <button id="boton2" class="botones">
-    
-                                <a id="btt2" href="#">Download CV</a>
-    
-                            </button>
-                        </div>
-                    </section>      
-                </section>      
-            |----*/
-    
             font-family: var(--font-popins) ;
             font-weight: 400;
             color: var(--colorTypography);
@@ -342,24 +231,8 @@ body {
             height: 24px;
         }
         #boton2:hover{
-            /* ----|
-                <section id="parte__1" class="partes">
-                    <section id="" class="">
-                        <div id="button__header" class="button">
-    
-                            <button id="boton2" class="botones">
-                                <a id="btt2" href="#">Download CV</a>
-                            </button>
-    
-                        </div>
-                    </section>      
-                </section
-            |----*/
-    
             background: linear-gradient(107.21deg,#2954A3 24.43%, #C961DE 68.95%);
         }
-
-        
     /* *****-----FIN--**--<section id="parte__1" class="partes">------******** */
     
     
@@ -369,108 +242,44 @@ body {
             grid-area: parte__2;
             height: 675px;
             display: grid;
-            /* display: flex; */
             width: 100%;
             overflow-x: clip;
-
             grid-template-areas: 
                 "man . ."
                 "man presentation ."
                 "man . ."
             ;
-            /* grid-template-areas: 
-                "man man man"
-                "man presentation man"
-                "man man man"
-            ; */
-            /* grid-template-areas: 
-                "man" "man" "man"
-                "man" "presentation__child__2" "presentation__child__2"
-                "man" "man" "man"
-            ; */
-            /* grid-template-areas: 
-                "." "." "."
-                "." "presentation__child__2" "presentation__child__2"
-                "." "." "."
-            ; */
             grid-template-columns: 37% 43% 20%;
             grid-template-rows: 25% 50% 25%;
-
-            
         }
-        .presentation {
-            /* color: var(--colorTypography);
-            font-family: var(--font-popins);
-            height: 675px; */
-
-            /* display: grid; */
-            /* grid-template-areas: 
-                "man" "man" "man"
-                "man" "presentation__child__2" "presentation__child__2"
-                "man" "man" "man"
-            ; */
-            /* grid-template-areas: 
-                "." "." "."
-                "." "presentation__child__2" "presentation__child__2"
-                "." "." "."
-            ; */
-            /* grid-template-columns: 25% 37.5% 37.5%;
-            grid-template-rows: 15% 65% 20%; */
-        }
+        
         #presentation__child__1 {
-            /* height: 610px; */
-            /* height: max-content; */
-            /* width: 100%; */
-            /* height: 675px; */
             width: 255%;
             position: relative;
             top: -41px;
-            /* overflow: hidden; */
-            /* overflow-x: clip; */
             grid-area: man;
             right: 120%;
             z-index: -1;
         }
         #man__version {
-                /* width: 948px; */
                 height: 839px;
-                /* left: -281.1240234375px; */
                 right: 199px;
-                /* right: 31%; */
-                /* position: relative; */
                 z-index: -1;
-                /* top: 7px; */
                 width: 199%;
         }
         #presentation__child__2 {
             position: relative;
             top: 4%;
             height: max-content;
-            /* top: -625px; */
-            /* left: 134px; */
-            /* width: 60%; */
             color: var(--colorTypography);
             font-family: var(--font-popins);
             grid-area: presentation;
         }
         #presentation__child__2 p{
-            /* ---| 
-                <section id="parte__2" class="partes">
-                    <div class="presentation">
-                        <h2>About me</h2>
-    
-                        <p>My name is Joan rodríguez. I'm .... version of me in Academlo </p>
-    
-                    </div>
-                </section> 
-            |--- */
-            
             font-size: 13px;
             font-weight: 400;
-            /* position: absolute; */
             width: 100%;
             height: 203px;
-            /* height: 61%; */
             overflow: hidden;
             overflow-y: scroll;
         }
@@ -481,16 +290,6 @@ body {
         p{}
 
         #presentation__child__2 h2{
-            /* ---| 
-                <section id="parte__2" class="partes">
-                    <div class="presentation">
-    
-                        <h2>About me</h2>
-                        <p>My...academlo </p>
-    
-                    </div>
-                </section> 
-            |--- */
             font-size: 20px;
             font-weight: 700;
             margin-bottom: 3px;
@@ -518,23 +317,16 @@ body {
         
         }
         #bg__part__3 {
-            /* z-index: -1; */
             grid-area: bg__3;
-            /* position: relative; */
-            /* width: 675px; */
             height: 688px;
             width: 100%;
         }
         #bg__part__3 img {
             position: relative;
-            /* top: 0px; */
-            /* right: 0px; */
-            /* width: 625px; */
             height: 358px;
             top: 28%;
             right: 253%;
             width: 1504%;
-            /* height: 0%; */
         }
         .h2__container {
             grid-area: title;
@@ -548,31 +340,15 @@ body {
             line-height: 39px;
             text-align: center;
             color: var(--colorTypography);
-            /* border-radius: nullpx; */
-            /* position: relative; */
             width: 100%;
-            /* top: -598px; */
             
         }
         #cont__desing {
-            /* position: relative; */
-            /* top: -535px; */
-            /* height: 64%; */
-            /* left: -50px; */
             grid-area: carousel;
         }
-        /* .carousel .carousel-item {
-            visibility: hidden;
-            width: 200px;
-            height: 200px;
-            position: absolute;
-            top: 0;
-            left: 0;
-        } */
         #carousel-item1>img {
             width: 144%;
             right: 22%;
-            /* left: 15px; */
             position: relative;
             bottom: 96px;
             height: 274px;
@@ -580,7 +356,6 @@ body {
         #carousel-item2>img{
             width: 144%;
             right: 22%;
-            /* left: 15px; */
             position: relative;
             bottom: 96px;
             height: 274px;
@@ -588,13 +363,10 @@ body {
         #carousel-item3>img{
             width: 144%;
             right: 22%;
-            /* left: 15px; */
             position: relative;
             bottom: 96px;
             height: 274px;
         }
-
-        /* #carousel-item1{} */
     
     /* *****-----FIN--**--<section id="parte__3" class="partes">------******** */
     
@@ -604,18 +376,12 @@ body {
         #parte__4 {
             height: 1136px;
             width: 100%;
-            /* position: relative; */
             display: flex;
             flex-direction: column;
-            /* align-content: center; */
-            /* justify-content: center; */
-            /* align-items: center; */
-            /* flex-wrap: wrap; */
             grid-area: parte__4;
         }
         #img__4 {
             position: relative;
-            /* bottom: 28%; */
             height: 1136px;
             display: flex;
             flex-direction: row-reverse;
@@ -631,23 +397,16 @@ body {
             display: none;
         }
         #tarjeta {
-            /* position: absolute; */
             position: relative;
-            /* z-index: -1; */
             height: 89%;
             height: 1025px;
             width: 90%;
-            /* position: relative; */
             bottom: 1086px;
             left: 21px;
-            /* top: 71px; */
-            /* bottom: 1324px; */
-            /* bottom: 646px; */
             border-radius: 30px;
             background: #2F2F8A99;
             background-blend-mode: overlay;
             border: 1px solid;
-            /* margin: 0px; */
             display: flex;
             flex-direction: column;
             flex-wrap: nowrap;
@@ -659,13 +418,7 @@ body {
             justify-content: space-around;
         }
         #head__tarjeta p{
-            /* ---|  |--- */
-
-            /* Get in touch */
-            /* position: absolute; */
-            /* width: 252px; */
             width: 88%;
-            /* height: 144px; */
             margin-left: 15px;
             top: 0px;
             font-family: var(--font-popins);
@@ -679,7 +432,6 @@ body {
             width: 96%;
             height: 34px;
             margin-left: 4%;
-            /* top: 0px; */
             font-family: var(--font-popins);
             font-weight: 700;
             font-size: 24px;
@@ -687,8 +439,6 @@ body {
         }    
         #icons {
             display: flex;
-            /* margin-top: 60px; */
-            /* margin-left: 15px; */
             flex-direction: column;
             height: 193px;
             flex-wrap: nowrap;
@@ -702,16 +452,7 @@ body {
             font-weight: 400;       
             margin-left: 10px; 
         }
-        /* #icons div > p{
-            
-            color: var(--colorTypography);
-            font-family: var(--font-popins);
-            font-weight: 400;       
-            margin-left: 10px; 
-        } */
         #icons1{
-            /* ---|  |--- */
-
             display: flex;
             flex-direction: row;
             align-items: center;
@@ -719,8 +460,6 @@ body {
             margin-left: 4%;
         }
         #icons1 i{
-            /* ---|  |--- */
-
             font-size: 20px;
             margin: 0px;
             align-items: flex-start;
@@ -733,19 +472,13 @@ body {
             color: var(--colorTypography);
         }
         #icons2{
-            /* ---|  |--- */
-
             display: flex;
             flex-direction: row;
-            /* justify-content: center; */
             align-items: flex-start;
-            /* la cague en la linea de arriba, era la 604 o flex-start */
             padding: 1px;
             margin-left: 4%;
         }
         #icons2 i{
-            /* ---|  |--- */
-
             font-size: 20px;
             margin: 0px;
             padding: 10px;
@@ -777,45 +510,18 @@ body {
         }
         
         #data__input h2 {
-            /* margin-left: 15px; */
-            /* z-index: 1; */
-            /* width: 250px; */
             height: 34px;
             font-family: var(--font-popins);
             font-weight: 700;
             font-size: 24px;
-            /* line-height: 143.2%; */
-            /* margin-top: 45px; */
             color: var(--colorTypography);
-            /* flex: none; */
-            /* order: 0; */
-            /* flex-grow: 0; */
             margin-left: 4%;
             margin-top: 0px;
         }
         #formulario{
-            /* ---| 
-                <div id="data__input" class="contenedor4">
-                    <h2>Send me a message</h2>
-                    <div id="formulario">
-                        
-                        <textarea type="text" id="Name" placeholder="Name" ></textarea>
-                        <textarea type="email" id="e__addres" placeholder="Email addres"></textarea>
-                        <textarea type="text" id="subject" placeholder="Subject"></textarea>
-                        <textarea type="text" id="your__message" placeholder="Your message"></textarea>
-                        
-                        <button type="submit" id="btt3">Send message</button>
-
-                    </div>
-                </div>
-            |--- */
-
-                
             margin-left: 4%;
             margin-right: 4%;
-            /* margin-bottom: 35px; */
             width: 90%;
-
         }
         #btt__submit {
             display: flex;
@@ -828,30 +534,19 @@ body {
         }
 
         #Name:hover{
-            /* ---|  |--- */
-
             border-color: var(--colorPrimaryGradiant);
         }
         #e__addres:hover{
-            /* ---|  |--- */
-
             border-color: var(--colorPrimaryGradiant);
         }#subject:hover{
-            /* ---|  |--- */
-
             border-color: var(--colorPrimaryGradiant);
         }#your__message:hover{
-            /* ---|  |--- */
-
             border-color: var(--colorPrimaryGradiant);
         }
         #Name::selection{
             border-color: linear-gradient(105.95deg, #2954A3 24.79%, #C961DE 71.87%);
         }
-
         #Name{
-            /* ---|  |--- */
-
             font-size: 15px ;
             font-family: var(--font-popins);
             color: var(--colorTypography);
@@ -864,8 +559,6 @@ body {
             width: 100%;
         }
         #e__addres{
-            /* ---|  |--- */
-
             font-size: 15px ;
             font-family: var(--font-popins);
             color: var(--colorTypography);
@@ -878,8 +571,6 @@ body {
             width: 100%;
         }
         #subject{
-            /* ---|  |--- */
-
             font-size: 15px ;
             font-family: var(--font-popins);
             color: var(--colorTypography);
@@ -892,8 +583,6 @@ body {
             width: 100%;
         }
         #your__message{
-            /* ---|  |--- */
-
             top: 0;
             left: 0;
             font-size: 15px ;
@@ -912,14 +601,10 @@ body {
         }
         /* REVISAR COMPORTAMIENTO BOTON */
         #btt3:hover{
-            /* ---|  |--- */
-
             background: linear-gradient(105.95deg, #2954A3 24.79%, #C961DE 71.87%);
             border-color: var(--colorPrimaryGradiant) ;
         }
         #btt3{
-            /* ---|  |--- */
-
             color: var(--colorTypography);
             font-family: var(--font-popins);
             font-weight: 400;
@@ -941,10 +626,7 @@ body {
     
     /* *****-----<footer>------******** */
         #footer {
-            /* position: relative; */
-            /* width: 100%; */
             background: linear-gradient(105.95deg, var(--colorPrimaryContainerBgFooterSectionBg) 24.79%, hsla(290, 81%, 69%, 0) 71.87%);
-            /* height: 475px; */
             grid-area: footer;
             display: flex;
             flex-direction: column;
@@ -954,14 +636,9 @@ body {
         .footer__nav {
             margin-left: 55px;
             display: grid;
-            /* position: relative; */
-            /* top: 76px; */
-            /* flex-direction: column; */
             height: 187px;
             align-items: center;
             justify-content: start;
-            /* flex-wrap: nowrap; */
-            /* align-content: space-between; */
             justify-items: start;
             grid-template-areas:
                 "1"
@@ -978,8 +655,6 @@ body {
             flex-direction: row;
             align-content: center;
             align-items: center;
-            /* width: 124%; */
-            /* justify-content: space-evenly; */
         }
         .footer__nav__2{
             grid-area: 2;
@@ -987,8 +662,6 @@ body {
             flex-direction: row;
             align-content: center;
             align-items: center;
-            /* width: 124%; */
-            /* justify-content: space-evenly; */
         }
         .footer__nav__3{
             grid-area: 3;
@@ -996,8 +669,6 @@ body {
             flex-direction: row;
             align-content: center;
             align-items: center;
-            /* width: 124%; */
-            /* justify-content: space-evenly; */
         }
         .footer__nav__4{
             grid-area: 4;
@@ -1005,8 +676,6 @@ body {
             flex-direction: row;
             align-content: center;
             align-items: center;
-            /* width: 124%; */
-            /* justify-content: space-evenly; */
         }
 
         #text__f__nav1{
@@ -1015,8 +684,6 @@ body {
             font-size: 17px;
             font-weight: 400;
             margin-left: 20px;
-            /* line-height: 24.36px; */
-            /* display: flex; */
         }
         #text__f__nav2{
             color: var(--colorTypography);
@@ -1051,63 +718,34 @@ body {
         #img__f__nav4 img{
             height: 30px;
         }
-
-
-
-        /* #img__f__nav1 img{
-            
-        
-            margin-bottom: 15px;
-            font-family: var(--font-popins);
-            color: var(--colorTypography);
-            font-weight: 400;
-            font-size: 17px;
-            line-height: 24.36px ;
-            margin-top: 4px;
-            margin-top: 11px ;
-        } */
-
-
         #social__media {
-            /* margin-left: 20px; */
-            /* position: relative; */
             display: flex;
-            /* left: 34px; */
-            /* width: 80%; */
-            /* top: 160px; */
             flex-direction: row;
-            /* flex-wrap: nowrap; */
             justify-content: center;
             height: 91px;
             align-items: flex-end;
         }
         #ins{
-            /* display: flex; */
-            /* margin-left: 33px; */
             width: 45px;
             object-fit: cover;
             margin-right: 5px;
         }
         #twi{
-            /* display: flex; */
             margin-right: 5px;
             width: 45px;
             height: 45px;
         }
         #lin{
-            /* display: flex; */
             margin-right: 5px;
             width: 45px;
             height: 45px;
         }
         #faceb{
-            /* display: flex; */
             margin-right: 5px;
             width: 45px;
             height: 45px;
         }
         #you{
-            /* display: flex; */
             margin-right: 5px;
             width: 45px;
             height: 45px;
@@ -1122,18 +760,13 @@ body {
         .divi__line {
             height: 2px;
             background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgb(255 255 255 / 30%)), linear-gradient(92.35deg, #474747 6.24%, rgb(61, 61, 61) 97.72%);
-            /* position: relative; */
             width: 74%;
-            /* left: 26px; */
             border-radius: 35px;
-            /* top: 172px; */
         }
     /* *****-----FIN--**--<footer>------******** */
 }
 
 @media (min-width: 425px){
-    /* ---|  |--- */
-
     /* *****-----<section id="parte__4" class="partes">------******** */
     #img4 {
         width: 100%;
@@ -1146,25 +779,16 @@ body {
 
 @media (min-width: 768px){
     /* ---| <nav id="header__nav" class="nav"> |--- */
-
     /* *****-----FIN--**--| <nav id="header__nav" class="nav"> |------******** */
-
 
     /* *****-----| <section id="parte__1" class="partes"> |------******** */
     /* *****-----FIN--**--<section id="parte__1" class="partes">------******** */
 
-    
     /* *****-----<section id="parte__2" class="partes">------******** */
     #presentation__child__1 {
-        /* height: 610px; */
-        /* height: max-content; */
-        /* width: 100%; */
-        /* height: 675px; */
         width: 187%;
         position: relative;
         top: -41px;
-        /* overflow: hidden; */
-        /* overflow-x: clip; */
         grid-area: man;
         right: 61%;
         z-index: -1;
@@ -1173,32 +797,22 @@ body {
         position: relative;
         top: 4%;
         height: max-content;
-        /* top: -625px; */
-        /* left: 134px; */
-        /* width: 60%; */
         color: var(--colorTypography);
         font-family: var(--font-popins);
         grid-area: presentation;
         width: 90%;
     }
-
     /* *****-----FIN--**--<section id="parte__2" class="partes">------******** */
-
 
     /* *****-----<section id="parte__3" class="partes">------******** */
     #bg__part__3 img {
         position: relative;
-        /* top: 0px; */
-        /* right: 0px; */
-        /* width: 625px; */
         height: 397px;
         top: 24%;
         right: 65%;
         width: 1129%;
-        /* height: 0%; */
     }
     /* *****-----FIN--**--<section id="parte__3" class="partes">------******** */
-
 
     /* *****-----<section id="parte__4" class="partes">------******** */
         #img4 {
@@ -1211,16 +825,12 @@ body {
         #img4__desktop{
             display: unset;
         }
-        
     /* *****-----FIN--**--<section id="parte__4" class="partes">------******** */
 
 
     /* *****-----<footer>------******** */
     .footer__nav {
-        /* margin-left: 55px; */
         display: flex;
-        /* position: relative; */
-        /* top: 76px; */
         margin: 0px;
         height: 140px;
         flex-direction: row;
@@ -1229,24 +839,13 @@ body {
         flex-wrap: nowrap;
         align-items: center;
     }
-
-
-
     .footer__nav__2 {
         grid-area: 2;
         display: flex;
         flex-direction: row;
         align-content: center;
         align-items: center;
-        /* width: 124%; */
-        /* justify-content: space-evenly; */
     }
-
-
-
-
-
-    
     /* *****-----FIN--**--<footer>------******** */
 }
 
@@ -1270,7 +869,6 @@ body {
         /* *******------MENÚ RESPONSIVE--------******** */
         display: flex;
         justify-content: flex-end;
-        /* height: 35px; */
         height: 100%;
         width: 100%;
         box-shadow: none;
@@ -1292,7 +890,6 @@ body {
     }
     /* *****-----FIN--**--| <nav id="header__nav" class="nav"> |------******** */
 
-
     /* *****-----| <section id="parte__1" class="partes"> |------******** */
         #parte__1{
             grid-area: parte__1;
@@ -1305,7 +902,6 @@ body {
         }
         #bg__img__bottom{
             display: unset;
-            /* width: 296px; */
             height: 294px;
         }
         #bg__bottom{
@@ -1321,21 +917,12 @@ body {
             position: relative;
             bottom: 100px;
             flex-wrap: nowrap;
-            /* right: 27px; */
-            /* right: -56px; */
         }
         #article__id{
-            /* font-size: 60px; */
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
             justify-content: center;
-            /* width: 54%; */
-            /* right: 11%; */
-            /* height: 258px; */
-            /* position: relative; */
-            /* top: -95px; */
-            /* bottom: 6px; */
         }
         .titulo {
             width: 64%;
@@ -1347,7 +934,6 @@ body {
         .btt__header {
             display: flex;
             justify-content: center;
-            /* height: 100%; */
             align-items: center;
             height: 122px;
         }
@@ -1366,24 +952,18 @@ body {
             width: 200px;
             height: 50px;
         }
-
-
         #bg__bottom__container {
             display: flex;
             flex-direction: column;
             height: 244px;
             flex-wrap: nowrap;
             position: relative;
-            /* bottom: 93px; */
             align-items: flex-end;
         }
         #bg__bottom__container > img {
             width: 60%;
-            /* height: 50%; */
             position: relative;
             z-index: -1;
-            /* width: 243px; */
-            /* bottom: 635px; */
         }
         #bg__bottom {
             display: unset;
@@ -1392,33 +972,21 @@ body {
         }
         #bg__img__bottom {
             display: unset;
-            /* width: 296px; */
             height: 656px;
             bottom: 1366px;
-            /* right: -64%; */
-            /* left: 676px; */
         }
-
     /* *****-----FIN--**--<section id="parte__1" class="partes">------******** */
 
-    
     /* *****-----<section id="parte__2" class="partes">------******** */
     #parte__2{
-        /* grid-area: parte__2; */
         height: 1024px;
         grid-template-columns: 37% 30% 35%;
         grid-template-rows: 20% 60% 20%;
     }
     #presentation__child__1 {
-        /* height: 610px; */
-        /* height: max-content; */
-        /* width: 100%; */
-        /* height: 675px; */
         width: 131%;
         position: relative;
         top: 0px;
-        /* overflow: hidden; */
-        /* overflow-x: clip; */
         grid-area: man;
         right: 0%;
         z-index: -1;
@@ -1430,9 +998,7 @@ body {
         position: relative;
         top: 15%;
         height: max-content;
-        /* top: -625px; */
         left: 16%;
-        /* width: 60%; */
         color: var(--colorTypography);
         font-family: var(--font-popins);
         grid-area: presentation;
@@ -1447,7 +1013,6 @@ body {
     }
     /* *****-----FIN--**--<section id="parte__2" class="partes">------******** */
 
-
     /* *****-----<section id="parte__3" class="partes">------******** */
         #parte__3{
             height: 1024px;
@@ -1455,10 +1020,8 @@ body {
         #bg__part__3 img{
             top: -599px;
             height: 1596px;
-            /* bottom: 99px; */
         }
     /* *****-----FIN--**--<section id="parte__3" class="partes">------******** */
-
 
     /* *****-----<section id="parte__4" class="partes">------******** */
         #parte__4{
@@ -1492,7 +1055,6 @@ body {
             margin-bottom: 0px;
         }
         #data__input{
-            /* margin: 50px; */
             height: 598px;
             display: flex;
             flex-direction: column;
@@ -1503,24 +1065,11 @@ body {
         }
     /* *****-----FIN--**--<section id="parte__4" class="partes">------******** */
 
-
     /* *****-----<footer>------******** */
         #footer{
             grid-area: footer;
-            /* grid-column-start: 1;
-            grid-column-end: 2;
-            grid-row-start: 5;
-            grid-row-end: 6; */
         }
     /* *****-----FIN--**--<footer>------******** */
-
-
-
-
-
-
-
-
 }
 
 
