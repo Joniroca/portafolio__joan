@@ -1,0 +1,1530 @@
+/* ---|  |--- */
+
+:root{
+    --colorTypography: #FFFFFF ;
+    --colorSecondaryGrafiant: #2954A3 ;
+    --colorPrimaryGradiant: #C961DE ;
+    --colorBgTitleBox: #0000004D 30%;
+    --colorSecondaryBgBox: #B5F9FD6B 42% ;
+    --colorPrimaryBgBox: #FFFFFF66 40% ;
+    --colorPrimaryContainerBgContactSectionBg: #2F2F8A99 60% ;
+    --colorPrimaryContainerBgFooterSectionBg: #1C1C65 ;
+    --color-bg-input: rgba(255, 255, 255, 0.3);
+    --colorDefaultPageBg: #0F103F ;
+    --font-popins: 'Poppins', sans-serif;
+    --color-gradient-1: linear-gradient(107.21deg, #C961DE 24.43%, #2954A3 68.95%);
+    --color-gradient-2: linear-gradient(107.21deg,#2954A3 24.43%, #C961DE 68.95%);
+}
+html{
+    background-color: var(--colorDefaultPageBg);
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 16px;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+section{
+    margin: 0px;
+}
+main{
+    /* overflow-x: clip; */
+    width: 100%;
+    /* max-width: 100%; */
+}
+body {
+    margin: 0;
+    /* overflow-x: clip; */
+    width: 100%;
+}
+
+/* ---|  |--- */
+
+@media (min-width: 375px){
+    .grid__mobile{
+        display: grid;
+        grid-template-areas: 
+            "nav"
+            "parte__1"
+            "parte__2"
+            "parte__3"
+            "parte__4"
+            "footer"
+        ;
+        grid-template-columns: 100%;
+        grid-template-rows: 40px 675px 675px 688px 1136px 489px;
+    }
+    
+    /* ---| <nav id="header__nav" class="nav"> |--- */
+        
+        #header__nav{
+            /* *******------MENÚ RESPONSIVE--------******** */
+            display: flex;
+            justify-content: flex-end;
+            height: 35px;
+            height: fit-content;
+            width: 100%;
+            box-shadow: none;
+            background-color: transparent;
+            grid-area: nav;
+        }
+        #boton{
+            display: block;
+            background-color: transparent;
+            border-color: transparent;
+    
+            background-color: transparent;
+            width: 40px;
+            height: 30px;
+            margin: 5px 0px;
+            border-radius: 15px;
+            color: var(--colorTypography);
+            z-index: 3;
+        }
+        #boton:hover{
+            rotate: 180dg;
+            transition: 600ms;
+            color: var(--colorSecondaryGrafiant);
+            border: 1xp solid;
+            border-color: var(--colorPrimaryGradiant);
+        }
+        .nav:hover{
+            border: 1xp solid;
+            border-color: var(--colorPrimaryGradiant);
+        }
+        .nav__menu{
+            flex-direction: column;
+            align-items: center;
+            /* margin-right: 20px; */
+            background-color: var(--colorSecondaryGrafiant);
+            /* position: fixed; hace que el icono se mueva a la izquierda, es como si dejara de ocupar ese espacio en el que estaba asignado y se queda pegado en es pasición*/
+            position: fixed;
+            top: 60px;
+            left: 0%;
+            width: 100%;
+            padding: 20px;
+            height: calc(100% - 60px);
+            left: 100%;
+            transition: 1s;
+            z-index: 3;
+        }
+        .nav-menu_visible{
+            left: 0px;
+        }
+    /* *****-----FIN--**--| <nav id="header__nav" class="nav"> |------******** */
+
+    
+    /* *****-----| <section id="parte__1" class="partes"> |------******** */
+        #parte__1 {
+            display: flex;
+            height: 675px;
+            left: 0px;
+            width: 100%;
+            border-radius: 0px;
+            top: 0px;
+            grid-area: parte__1;
+            flex-direction: column;
+        }
+        #contenedor__mundito {
+            height: 41%;
+            overflow-x: clip;
+        }
+        #mundito {
+            position: relative;
+            height: 420.763916015625px;
+            left: -219.1240234375px;
+            width: 303.763916015625px;
+            border-radius: 0px;
+            top: -55.7578125px;
+            z-index: -1;
+        }
+        .container_button__header__article__id{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            height: 397px;
+            justify-content: space-evenly;
+            align-items: center;
+            align-content: center;
+        }
+        #bg__bottom{
+            display: none;
+        }
+        #bg__img__bottom{
+            display: none;
+        }
+        #article__id{
+            color: var(--colorTypography);
+            /* top: 221px; */
+            width: 100%;
+        }
+        .titulo{
+            /* ----|
+                <section id="parte__1" class="partes">
+                    <article id="srticle__id" class="">
+    
+                        <h1 id="" class="titulo"> Creative UI Designer Joan Rodíguez Based in Colombia</h1>
+    
+                    </article>      
+                </section>
+            |----*/
+    
+            color: var(--colorTypography);
+            border-radius: nullpx;
+            font-family: var(--font-popins);
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 39px;
+            margin: 8px;
+            border-radius: nullpx;
+            /* margin-right: 33px; */
+        }
+        .btt__header {
+            display: flex;
+            justify-content: center;
+            /* height: 100%; */
+            align-items: center;
+        }
+        /* 
+        #container_button__header {
+            display: flex;
+            justify-content: center;
+            height: 100%;
+            align-items: center;
+        } */
+        #button__header {
+            /* padding: 15px; */
+            display: flex;
+            flex-direction: column;
+        }
+        #boton1{
+            /* ----|
+                <section id="parte__1" class="partes">
+                    <section id="" class="">
+                        <div id="button__header" class="button">
+    
+                            <button id="boton1" class="botones">
+                                <a id="btt1" href="#">Hire me</a>
+                            </button>
+    
+                        </div>
+                    </section>      
+                </section>  
+            |----*/
+    
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 0px;
+            /* position: absolute; */
+            /* width: 200px; */
+            width: 200px;
+            height: 50px;
+            /* left: 3px; */
+            /* top: -16px; */
+            position: relative;
+            border-radius: 30px;
+            background: #FFFFFF4D;
+            /* border: 1.53px solid; */
+            /* border-image-source: linear-gradient(135deg, rgba(255, 255, 255, 0.6) 0%, #000000 100%); */
+            /* border: 1.53px solid; */
+            box-shadow: 0px 10px 20px 0px #00000026;
+            margin-bottom: 10px;
+        }
+        #btt1 {
+            /* ----|
+                <section id="parte__1" class="partes">
+                    <section id="" class="">
+                        <div id="button__header" class="button">
+                            <button id="boton1" class="botones">
+    
+                                <a id="btt1" href="#">Hire me</a>
+    
+                            </button>
+                        </div>
+                    </section>      
+                </section>     
+            |----*/
+    
+            color: var(--colorTypography);
+            text-decoration: none;
+            font-family: var(--font-popins);
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 24px ;
+            letter-spacing: 0em  ;
+            text-align: center;
+            width: 207px;
+            height: 24px;
+        }
+        #boton1:hover{
+            /* ----|
+                <section id="parte__1" class="partes">
+                    <section id="" class="">
+                        <div id="button__header" class="button">
+    
+                            <button id="boton1" class="botones">
+                                <a id="btt1" href="#">Hire me</a>
+                            </button>
+    
+                        </div>
+                    </section>      
+                </section>
+            |----*/
+    
+            /* Colors */
+            background-blend-mode: overlay;
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.6) 0%, #000000 100%);
+        }
+        #boton2{
+            /* ----|
+                <section id="parte__1" class="partes">
+                    <section id="" class="">
+                        <div id="button__header" class="button">
+    
+                            <button id="boton2" class="botones">
+                                <a id="btt2" href="#">Download CV</a>
+                            </button>
+    
+                        </div>
+                    </section>      
+                </section>   
+            |----*/
+    
+    
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            /* padding: 4px; */
+            /* position: absolute; */
+            /* width: 200px; */
+            width: 200px;
+            height: 50px;
+            /* left: 3px; */
+            /* top: -16px; */
+            position: relative;
+            border-radius: 30px;
+            background: linear-gradient(107.21deg, #C961DE 24.43%, #2954A3 68.95%);
+            /* border: 1.53px solid; */
+            /* border-image-source: linear-gradient(135deg, rgba(255, 255, 255, 0.6) 0%, #000000 100%); */
+            /* border: 1.53px solid; */
+            box-shadow: 0px 10px 20px 0px #00000026;
+            margin-top: 10px;
+        }
+        #btt2{
+            /* ----|
+                <section id="parte__1" class="partes">
+                    <section id="" class="">
+                        <div id="button__header" class="button">
+                            <button id="boton2" class="botones">
+    
+                                <a id="btt2" href="#">Download CV</a>
+    
+                            </button>
+                        </div>
+                    </section>      
+                </section>      
+            |----*/
+    
+            font-family: var(--font-popins) ;
+            font-weight: 400;
+            color: var(--colorTypography);
+            text-decoration: none;
+            font-size: 17px;
+            letter-spacing: 0em;
+            line-height: 24px;
+            text-align: center;
+            width: 207px;
+            height: 24px;
+        }
+        #boton2:hover{
+            /* ----|
+                <section id="parte__1" class="partes">
+                    <section id="" class="">
+                        <div id="button__header" class="button">
+    
+                            <button id="boton2" class="botones">
+                                <a id="btt2" href="#">Download CV</a>
+                            </button>
+    
+                        </div>
+                    </section>      
+                </section
+            |----*/
+    
+            background: linear-gradient(107.21deg,#2954A3 24.43%, #C961DE 68.95%);
+        }
+
+        
+    /* *****-----FIN--**--<section id="parte__1" class="partes">------******** */
+    
+    
+    
+    /* *****-----<section id="parte__2" class="partes">------******** */
+        #parte__2 {
+            grid-area: parte__2;
+            height: 675px;
+            display: grid;
+            /* display: flex; */
+            width: 100%;
+            overflow-x: clip;
+
+            grid-template-areas: 
+                "man . ."
+                "man presentation ."
+                "man . ."
+            ;
+            /* grid-template-areas: 
+                "man man man"
+                "man presentation man"
+                "man man man"
+            ; */
+            /* grid-template-areas: 
+                "man" "man" "man"
+                "man" "presentation__child__2" "presentation__child__2"
+                "man" "man" "man"
+            ; */
+            /* grid-template-areas: 
+                "." "." "."
+                "." "presentation__child__2" "presentation__child__2"
+                "." "." "."
+            ; */
+            grid-template-columns: 37% 43% 20%;
+            grid-template-rows: 25% 50% 25%;
+
+            
+        }
+        .presentation {
+            /* color: var(--colorTypography);
+            font-family: var(--font-popins);
+            height: 675px; */
+
+            /* display: grid; */
+            /* grid-template-areas: 
+                "man" "man" "man"
+                "man" "presentation__child__2" "presentation__child__2"
+                "man" "man" "man"
+            ; */
+            /* grid-template-areas: 
+                "." "." "."
+                "." "presentation__child__2" "presentation__child__2"
+                "." "." "."
+            ; */
+            /* grid-template-columns: 25% 37.5% 37.5%;
+            grid-template-rows: 15% 65% 20%; */
+        }
+        #presentation__child__1 {
+            /* height: 610px; */
+            /* height: max-content; */
+            /* width: 100%; */
+            /* height: 675px; */
+            width: 255%;
+            position: relative;
+            top: -41px;
+            /* overflow: hidden; */
+            /* overflow-x: clip; */
+            grid-area: man;
+            right: 120%;
+            z-index: -1;
+        }
+        #man__version {
+                /* width: 948px; */
+                height: 839px;
+                /* left: -281.1240234375px; */
+                right: 199px;
+                /* right: 31%; */
+                /* position: relative; */
+                z-index: -1;
+                /* top: 7px; */
+                width: 199%;
+        }
+        #presentation__child__2 {
+            position: relative;
+            top: 4%;
+            height: max-content;
+            /* top: -625px; */
+            /* left: 134px; */
+            /* width: 60%; */
+            color: var(--colorTypography);
+            font-family: var(--font-popins);
+            grid-area: presentation;
+        }
+        #presentation__child__2 p{
+            /* ---| 
+                <section id="parte__2" class="partes">
+                    <div class="presentation">
+                        <h2>About me</h2>
+    
+                        <p>My name is Joan rodríguez. I'm .... version of me in Academlo </p>
+    
+                    </div>
+                </section> 
+            |--- */
+            
+            font-size: 13px;
+            font-weight: 400;
+            /* position: absolute; */
+            width: 100%;
+            height: 203px;
+            /* height: 61%; */
+            overflow: hidden;
+            overflow-y: scroll;
+        }
+
+        
+
+        h2{}
+        p{}
+
+        #presentation__child__2 h2{
+            /* ---| 
+                <section id="parte__2" class="partes">
+                    <div class="presentation">
+    
+                        <h2>About me</h2>
+                        <p>My...academlo </p>
+    
+                    </div>
+                </section> 
+            |--- */
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 3px;
+            z-index: 3;
+        }
+        
+    /* *****-----FIN--**--<section id="parte__2" class="partes">------******** */
+    
+    
+    
+    /* *****-----<section id="parte__3" class="partes">------******** */
+        #parte__3 {
+            grid-area: parte__3;
+            display: grid;
+            height: 688px;
+            grid-template-areas: 
+                ". title ."
+                "bg__3 carousel ."
+            ;
+            grid-template-columns: 10% 80% 10%;
+            grid-template-rows: 30% 70%;
+            align-content: center;
+            align-items: center;
+            overflow-x: clip;
+        
+        }
+        #bg__part__3 {
+            /* z-index: -1; */
+            grid-area: bg__3;
+            /* position: relative; */
+            /* width: 675px; */
+            height: 688px;
+            width: 100%;
+        }
+        #bg__part__3 img {
+            position: relative;
+            /* top: 0px; */
+            /* right: 0px; */
+            /* width: 625px; */
+            height: 358px;
+            top: 28%;
+            right: 253%;
+            width: 1504%;
+            /* height: 0%; */
+        }
+        .h2__container {
+            grid-area: title;
+            position: relative;
+            top: 36%;
+        }
+        .pie__titulo {
+            font-family: var(--font-popins);
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 39px;
+            text-align: center;
+            color: var(--colorTypography);
+            /* border-radius: nullpx; */
+            /* position: relative; */
+            width: 100%;
+            /* top: -598px; */
+            
+        }
+        #cont__desing {
+            /* position: relative; */
+            /* top: -535px; */
+            /* height: 64%; */
+            /* left: -50px; */
+            grid-area: carousel;
+        }
+        /* .carousel .carousel-item {
+            visibility: hidden;
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            top: 0;
+            left: 0;
+        } */
+        #carousel-item1>img {
+            width: 144%;
+            right: 22%;
+            /* left: 15px; */
+            position: relative;
+            bottom: 96px;
+            height: 274px;
+        }
+        #carousel-item2>img{
+            width: 144%;
+            right: 22%;
+            /* left: 15px; */
+            position: relative;
+            bottom: 96px;
+            height: 274px;
+        }
+        #carousel-item3>img{
+            width: 144%;
+            right: 22%;
+            /* left: 15px; */
+            position: relative;
+            bottom: 96px;
+            height: 274px;
+        }
+
+        /* #carousel-item1{} */
+    
+    /* *****-----FIN--**--<section id="parte__3" class="partes">------******** */
+    
+    
+    
+    /* *****-----<section id="parte__4" class="partes">------******** */
+        #parte__4 {
+            height: 1136px;
+            width: 100%;
+            /* position: relative; */
+            display: flex;
+            flex-direction: column;
+            /* align-content: center; */
+            /* justify-content: center; */
+            /* align-items: center; */
+            /* flex-wrap: wrap; */
+            grid-area: parte__4;
+        }
+        #img__4 {
+            position: relative;
+            /* bottom: 28%; */
+            height: 1136px;
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: flex-start;
+            align-items: flex-start;
+            flex-wrap: nowrap;
+        }
+        #img4 {
+            width: 100%;
+            height: 1600px;
+        }
+        #img4__desktop{
+            display: none;
+        }
+        #tarjeta {
+            /* position: absolute; */
+            position: relative;
+            /* z-index: -1; */
+            height: 89%;
+            height: 1025px;
+            width: 90%;
+            /* position: relative; */
+            bottom: 1086px;
+            left: 21px;
+            /* top: 71px; */
+            /* bottom: 1324px; */
+            /* bottom: 646px; */
+            border-radius: 30px;
+            background: #2F2F8A99;
+            background-blend-mode: overlay;
+            border: 1px solid;
+            /* margin: 0px; */
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+        }
+        #head__tarjeta {
+            height: 242px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        #head__tarjeta p{
+            /* ---|  |--- */
+
+            /* Get in touch */
+            /* position: absolute; */
+            /* width: 252px; */
+            width: 88%;
+            /* height: 144px; */
+            margin-left: 15px;
+            top: 0px;
+            font-family: var(--font-popins);
+            font-style: normal;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 143.2%;
+            color: var(--colorTypography);
+        }
+        #head__tarjeta h2 {
+            width: 96%;
+            height: 34px;
+            margin-left: 4%;
+            /* top: 0px; */
+            font-family: var(--font-popins);
+            font-weight: 700;
+            font-size: 24px;
+            color: var(--colorTypography);
+        }    
+        #icons {
+            display: flex;
+            /* margin-top: 60px; */
+            /* margin-left: 15px; */
+            flex-direction: column;
+            height: 193px;
+            flex-wrap: nowrap;
+            justify-content: center;
+        }
+        #icons p{
+            /* ---|  |--- */
+
+            color: var(--colorTypography);
+            font-family: var(--font-popins);
+            font-weight: 400;       
+            margin-left: 10px; 
+        }
+        /* #icons div > p{
+            
+            color: var(--colorTypography);
+            font-family: var(--font-popins);
+            font-weight: 400;       
+            margin-left: 10px; 
+        } */
+        #icons1{
+            /* ---|  |--- */
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 1px;
+            margin-left: 4%;
+        }
+        #icons1 i{
+            /* ---|  |--- */
+
+            font-size: 20px;
+            margin: 0px;
+            align-items: flex-start;
+            padding: 10px;
+            gap: 10px;
+            width: 40px;
+            height: 40px;
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 30px;
+            color: var(--colorTypography);
+        }
+        #icons2{
+            /* ---|  |--- */
+
+            display: flex;
+            flex-direction: row;
+            /* justify-content: center; */
+            align-items: flex-start;
+            /* la cague en la linea de arriba, era la 604 o flex-start */
+            padding: 1px;
+            margin-left: 4%;
+        }
+        #icons2 i{
+            /* ---|  |--- */
+
+            font-size: 20px;
+            margin: 0px;
+            padding: 10px;
+            gap: 10px;
+            width: 40px;
+            height: 40px;
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 30px;
+            color: var(--colorTypography);
+        }
+        /* TITLE SEND ME A MESSAGE */
+        #data__input {
+            display: flex;
+            align-items: flex-start;
+            align-content: stretch;
+            flex-wrap: nowrap;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 630px;
+        }
+        #subtitle__dat__input{
+            display: flex;
+            align-items: flex-start;
+            flex-wrap: nowrap;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-content: stretch;
+            width: 100%;
+        }
+        
+        #data__input h2 {
+            /* margin-left: 15px; */
+            /* z-index: 1; */
+            /* width: 250px; */
+            height: 34px;
+            font-family: var(--font-popins);
+            font-weight: 700;
+            font-size: 24px;
+            /* line-height: 143.2%; */
+            /* margin-top: 45px; */
+            color: var(--colorTypography);
+            /* flex: none; */
+            /* order: 0; */
+            /* flex-grow: 0; */
+            margin-left: 4%;
+            margin-top: 0px;
+        }
+        #formulario{
+            /* ---| 
+                <div id="data__input" class="contenedor4">
+                    <h2>Send me a message</h2>
+                    <div id="formulario">
+                        
+                        <textarea type="text" id="Name" placeholder="Name" ></textarea>
+                        <textarea type="email" id="e__addres" placeholder="Email addres"></textarea>
+                        <textarea type="text" id="subject" placeholder="Subject"></textarea>
+                        <textarea type="text" id="your__message" placeholder="Your message"></textarea>
+                        
+                        <button type="submit" id="btt3">Send message</button>
+
+                    </div>
+                </div>
+            |--- */
+
+                
+            margin-left: 4%;
+            margin-right: 4%;
+            /* margin-bottom: 35px; */
+            width: 90%;
+
+        }
+        #btt__submit {
+            display: flex;
+            height: 63px;
+            flex-wrap: nowrap;
+            flex-direction: row;
+            align-content: center;
+            margin-bottom: 89px;
+            margin-left: 4%;
+        }
+
+        #Name:hover{
+            /* ---|  |--- */
+
+            border-color: var(--colorPrimaryGradiant);
+        }
+        #e__addres:hover{
+            /* ---|  |--- */
+
+            border-color: var(--colorPrimaryGradiant);
+        }#subject:hover{
+            /* ---|  |--- */
+
+            border-color: var(--colorPrimaryGradiant);
+        }#your__message:hover{
+            /* ---|  |--- */
+
+            border-color: var(--colorPrimaryGradiant);
+        }
+        #Name::selection{
+            border-color: linear-gradient(105.95deg, #2954A3 24.79%, #C961DE 71.87%);
+        }
+
+        #Name{
+            /* ---|  |--- */
+
+            font-size: 15px ;
+            font-family: var(--font-popins);
+            color: var(--colorTypography);
+            border: 2px solid transparent;
+            border-radius: 10px;
+            background-color: var(--color-bg-input);
+            margin-bottom: 15px;
+            padding-top: 10px;
+            padding-left: 10px;
+            width: 100%;
+        }
+        #e__addres{
+            /* ---|  |--- */
+
+            font-size: 15px ;
+            font-family: var(--font-popins);
+            color: var(--colorTypography);
+            border: 2px solid transparent;
+            border-radius: 10px;
+            background-color: var(--color-bg-input);
+            margin-bottom: 15px;
+            padding-left: 10px;
+            padding-top: 10px;
+            width: 100%;
+        }
+        #subject{
+            /* ---|  |--- */
+
+            font-size: 15px ;
+            font-family: var(--font-popins);
+            color: var(--colorTypography);
+            border: 2px solid transparent;
+            border-radius: 10px;
+            background-color: var(--color-bg-input);
+            margin-bottom: 15px;
+            padding-left: 10px;
+            padding-top: 10px;
+            width: 100%;
+        }
+        #your__message{
+            /* ---|  |--- */
+
+            top: 0;
+            left: 0;
+            font-size: 15px ;
+            font-family: var(--font-popins);
+            color: var(--colorTypography);
+            border: 2px solid transparent;
+            border-radius: 10px;
+            background-color: var(--color-bg-input);
+            margin-bottom: 15px;
+            height: 200px;
+            width: 100%;
+            left: 0px;
+            top: 234px;
+            border-radius: 10px;
+            padding: 10px ;
+        }
+        /* REVISAR COMPORTAMIENTO BOTON */
+        #btt3:hover{
+            /* ---|  |--- */
+
+            background: linear-gradient(105.95deg, #2954A3 24.79%, #C961DE 71.87%);
+            border-color: var(--colorPrimaryGradiant) ;
+        }
+        #btt3{
+            /* ---|  |--- */
+
+            color: var(--colorTypography);
+            font-family: var(--font-popins);
+            font-weight: 400;
+            padding: 1px;
+            border: 0px solid transparent;
+            width: 160px;
+            height: 40px;
+            background: linear-gradient(105.95deg, #C961DE 24.79%, #2954A3 71.87%);
+            box-shadow: 0px 10px 20px rgba(7, 7, 26, 0.15);
+            border-radius: 10px;
+            /* Inside auto layout */
+            flex: none;
+            order: 5;
+            flex-grow: 0;
+        }
+    /* *****-----FIN--**--<section id="parte__4" class="partes">------******** */
+    
+    
+    
+    /* *****-----<footer>------******** */
+        #footer {
+            /* position: relative; */
+            /* width: 100%; */
+            background: linear-gradient(105.95deg, var(--colorPrimaryContainerBgFooterSectionBg) 24.79%, hsla(290, 81%, 69%, 0) 71.87%);
+            /* height: 475px; */
+            grid-area: footer;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            flex-wrap: nowrap;
+        }
+        .footer__nav {
+            margin-left: 55px;
+            display: grid;
+            /* position: relative; */
+            /* top: 76px; */
+            /* flex-direction: column; */
+            height: 187px;
+            align-items: center;
+            justify-content: start;
+            /* flex-wrap: nowrap; */
+            /* align-content: space-between; */
+            justify-items: start;
+            grid-template-areas:
+                "1"
+                "2"
+                "3"
+                "4"
+            ;
+        }
+
+
+        .footer__nav__1 {
+            grid-area: 1;
+            display: flex;
+            flex-direction: row;
+            align-content: center;
+            align-items: center;
+            /* width: 124%; */
+            /* justify-content: space-evenly; */
+        }
+        .footer__nav__2{
+            grid-area: 2;
+            display: flex;
+            flex-direction: row;
+            align-content: center;
+            align-items: center;
+            /* width: 124%; */
+            /* justify-content: space-evenly; */
+        }
+        .footer__nav__3{
+            grid-area: 3;
+            display: flex;
+            flex-direction: row;
+            align-content: center;
+            align-items: center;
+            /* width: 124%; */
+            /* justify-content: space-evenly; */
+        }
+        .footer__nav__4{
+            grid-area: 4;
+            display: flex;
+            flex-direction: row;
+            align-content: center;
+            align-items: center;
+            /* width: 124%; */
+            /* justify-content: space-evenly; */
+        }
+
+        #text__f__nav1{
+            color: var(--colorTypography);
+            font-family: var(--font-popins);
+            font-size: 17px;
+            font-weight: 400;
+            margin-left: 20px;
+            /* line-height: 24.36px; */
+            /* display: flex; */
+        }
+        #text__f__nav2{
+            color: var(--colorTypography);
+            font-family: var(--font-popins);
+            font-size: 17px;
+            font-weight: 400;
+            margin-left: 20px;
+        }
+        #text__f__nav3{
+            color: var(--colorTypography);
+            font-family: var(--font-popins);
+            font-size: 17px;
+            font-weight: 400;
+            margin-left: 20px;
+        }
+        #text__f__nav4{
+            color: var(--colorTypography);
+            font-family: var(--font-popins);
+            font-size: 17px;
+            font-weight: 400;
+            margin-left: 20px;
+        }
+        #img__f__nav1 img{
+            height: 30px;
+        }
+        #img__f__nav2 img{
+            height: 30px;
+        }
+        #img__f__nav3 img{
+            height: 30px;
+        }
+        #img__f__nav4 img{
+            height: 30px;
+        }
+
+
+
+        /* #img__f__nav1 img{
+            
+        
+            margin-bottom: 15px;
+            font-family: var(--font-popins);
+            color: var(--colorTypography);
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 24.36px ;
+            margin-top: 4px;
+            margin-top: 11px ;
+        } */
+
+
+        #social__media {
+            /* margin-left: 20px; */
+            /* position: relative; */
+            display: flex;
+            /* left: 34px; */
+            /* width: 80%; */
+            /* top: 160px; */
+            flex-direction: row;
+            /* flex-wrap: nowrap; */
+            justify-content: center;
+            height: 91px;
+            align-items: flex-end;
+        }
+        #ins{
+            /* display: flex; */
+            /* margin-left: 33px; */
+            width: 45px;
+            object-fit: cover;
+            margin-right: 5px;
+        }
+        #twi{
+            /* display: flex; */
+            margin-right: 5px;
+            width: 45px;
+            height: 45px;
+        }
+        #lin{
+            /* display: flex; */
+            margin-right: 5px;
+            width: 45px;
+            height: 45px;
+        }
+        #faceb{
+            /* display: flex; */
+            margin-right: 5px;
+            width: 45px;
+            height: 45px;
+        }
+        #you{
+            /* display: flex; */
+            margin-right: 5px;
+            width: 45px;
+            height: 45px;
+        }
+        #div__line{
+            display: flex;
+            height: 10px;
+            justify-content: center;
+            flex-direction: row;
+            align-items: flex-start;
+        }
+        .divi__line {
+            height: 2px;
+            background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgb(255 255 255 / 30%)), linear-gradient(92.35deg, #474747 6.24%, rgb(61, 61, 61) 97.72%);
+            /* position: relative; */
+            width: 74%;
+            /* left: 26px; */
+            border-radius: 35px;
+            /* top: 172px; */
+        }
+    /* *****-----FIN--**--<footer>------******** */
+}
+
+@media (min-width: 425px){
+    /* ---|  |--- */
+
+    /* *****-----<section id="parte__4" class="partes">------******** */
+    #img4 {
+        width: 100%;
+        height: 2019px;
+        bottom: 404px;
+        position: relative;
+    }
+    /* *****-----FIN--**--<section id="parte__4" class="partes">------******** */
+}
+
+@media (min-width: 768px){
+    /* ---| <nav id="header__nav" class="nav"> |--- */
+
+    /* *****-----FIN--**--| <nav id="header__nav" class="nav"> |------******** */
+
+
+    /* *****-----| <section id="parte__1" class="partes"> |------******** */
+    /* *****-----FIN--**--<section id="parte__1" class="partes">------******** */
+
+    
+    /* *****-----<section id="parte__2" class="partes">------******** */
+    #presentation__child__1 {
+        /* height: 610px; */
+        /* height: max-content; */
+        /* width: 100%; */
+        /* height: 675px; */
+        width: 187%;
+        position: relative;
+        top: -41px;
+        /* overflow: hidden; */
+        /* overflow-x: clip; */
+        grid-area: man;
+        right: 61%;
+        z-index: -1;
+    }
+    #presentation__child__2 {
+        position: relative;
+        top: 4%;
+        height: max-content;
+        /* top: -625px; */
+        /* left: 134px; */
+        /* width: 60%; */
+        color: var(--colorTypography);
+        font-family: var(--font-popins);
+        grid-area: presentation;
+        width: 90%;
+    }
+
+    /* *****-----FIN--**--<section id="parte__2" class="partes">------******** */
+
+
+    /* *****-----<section id="parte__3" class="partes">------******** */
+    #bg__part__3 img {
+        position: relative;
+        /* top: 0px; */
+        /* right: 0px; */
+        /* width: 625px; */
+        height: 397px;
+        top: 24%;
+        right: 65%;
+        width: 1129%;
+        /* height: 0%; */
+    }
+    /* *****-----FIN--**--<section id="parte__3" class="partes">------******** */
+
+
+    /* *****-----<section id="parte__4" class="partes">------******** */
+        #img4 {
+            width: 100%;
+            height: 2091px;
+            bottom: 466px;
+            position: relative;
+            display: none;
+        }
+        #img4__desktop{
+            display: unset;
+        }
+        
+    /* *****-----FIN--**--<section id="parte__4" class="partes">------******** */
+
+
+    /* *****-----<footer>------******** */
+    .footer__nav {
+        /* margin-left: 55px; */
+        display: flex;
+        /* position: relative; */
+        /* top: 76px; */
+        margin: 0px;
+        height: 140px;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+
+
+    .footer__nav__2 {
+        grid-area: 2;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
+        /* width: 124%; */
+        /* justify-content: space-evenly; */
+    }
+
+
+
+
+
+    
+    /* *****-----FIN--**--<footer>------******** */
+}
+
+@media (min-width: 1024px){
+    .grid__mobile{
+        display: grid;
+        grid-template-areas: 
+            "nav"
+            "parte__1"
+            "parte__2"
+            "parte__3"
+            "parte__4"
+            "footer"
+        ;
+        grid-template-columns: 100%;
+        grid-template-rows: 125px repeat(4, 1024px) 400px;
+    }
+
+    /* ---| <nav id="header__nav" class="nav"> |--- */
+    #header__nav{
+        /* *******------MENÚ RESPONSIVE--------******** */
+        display: flex;
+        justify-content: flex-end;
+        /* height: 35px; */
+        height: 100%;
+        width: 100%;
+        box-shadow: none;
+        background-color: transparent;
+        grid-area: nav;
+    }
+    #boton{
+        display: none;
+    }
+    .nav__menu {
+        position: initial;
+        left: 0px;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        background: linear-gradient(105.95deg, var(--colorPrimaryContainerBgFooterSectionBg) 14.79%, hsla(290, 100%, 50%, 0.626) 71.87%);
+    }
+    /* *****-----FIN--**--| <nav id="header__nav" class="nav"> |------******** */
+
+
+    /* *****-----| <section id="parte__1" class="partes"> |------******** */
+        #parte__1{
+            grid-area: parte__1;
+            height: 1024px;
+        }
+        #bg__bottom__container{
+            display: flex;
+            flex-direction: row-reverse;
+            flex-wrap: wrap;
+        }
+        #bg__img__bottom{
+            display: unset;
+            /* width: 296px; */
+            height: 294px;
+        }
+        #bg__bottom{
+            display: unset;
+            height: 214px;
+        }
+        #mundito{
+            left: 0;
+            position: initial;
+            width: initial;
+        }
+        .container_button__header__article__id {
+            position: relative;
+            bottom: 100px;
+            flex-wrap: nowrap;
+            /* right: 27px; */
+            /* right: -56px; */
+        }
+        #article__id{
+            /* font-size: 60px; */
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            /* width: 54%; */
+            /* right: 11%; */
+            /* height: 258px; */
+            /* position: relative; */
+            /* top: -95px; */
+            /* bottom: 6px; */
+        }
+        .titulo {
+            width: 64%;
+            font-size: 60px;
+            line-height: 74px;
+            margin-left: 12%;
+        }
+
+        .btt__header {
+            display: flex;
+            justify-content: center;
+            /* height: 100%; */
+            align-items: center;
+            height: 122px;
+        }
+        #button__header{
+            flex-direction: row;
+            justify-content: space-evenly;
+            width: 504px;
+        }
+        #boton1{
+            margin: 0px;
+            width: 200px;
+            height: 50px;
+        }
+        #boton2{
+            margin: 0px;
+            width: 200px;
+            height: 50px;
+        }
+
+
+        #bg__bottom__container {
+            display: flex;
+            flex-direction: column;
+            height: 244px;
+            flex-wrap: nowrap;
+            position: relative;
+            /* bottom: 93px; */
+            align-items: flex-end;
+        }
+        #bg__bottom__container > img {
+            width: 60%;
+            /* height: 50%; */
+            position: relative;
+            z-index: -1;
+            /* width: 243px; */
+            /* bottom: 635px; */
+        }
+        #bg__bottom {
+            display: unset;
+            height: 960px;
+            bottom: 538px;
+        }
+        #bg__img__bottom {
+            display: unset;
+            /* width: 296px; */
+            height: 656px;
+            bottom: 1366px;
+            /* right: -64%; */
+            /* left: 676px; */
+        }
+
+    /* *****-----FIN--**--<section id="parte__1" class="partes">------******** */
+
+    
+    /* *****-----<section id="parte__2" class="partes">------******** */
+    #parte__2{
+        /* grid-area: parte__2; */
+        height: 1024px;
+        grid-template-columns: 37% 30% 35%;
+        grid-template-rows: 20% 60% 20%;
+    }
+    #presentation__child__1 {
+        /* height: 610px; */
+        /* height: max-content; */
+        /* width: 100%; */
+        /* height: 675px; */
+        width: 131%;
+        position: relative;
+        top: 0px;
+        /* overflow: hidden; */
+        /* overflow-x: clip; */
+        grid-area: man;
+        right: 0%;
+        z-index: -1;
+    }
+    #man__version {
+        height: 1165px;
+    }
+    #presentation__child__2 {
+        position: relative;
+        top: 15%;
+        height: max-content;
+        /* top: -625px; */
+        left: 16%;
+        /* width: 60%; */
+        color: var(--colorTypography);
+        font-family: var(--font-popins);
+        grid-area: presentation;
+        width: 66%;
+    }
+    #presentation__child__2 p {
+        font-size: 1rem;
+        height: 308px;
+    }
+    #presentation__child__2 h2{
+        font-size: 2rem;
+    }
+    /* *****-----FIN--**--<section id="parte__2" class="partes">------******** */
+
+
+    /* *****-----<section id="parte__3" class="partes">------******** */
+        #parte__3{
+            height: 1024px;
+        }
+        #bg__part__3 img{
+            top: -599px;
+            height: 1596px;
+            /* bottom: 99px; */
+        }
+    /* *****-----FIN--**--<section id="parte__3" class="partes">------******** */
+
+
+    /* *****-----<section id="parte__4" class="partes">------******** */
+        #parte__4{
+            align-items: center;
+        }
+        #img4{
+            display: none;
+        }
+        #tarjeta{
+            bottom: -201px;
+            flex-direction: row;
+            width: 900px;
+            height: 600px;
+            left: 0%;
+        }
+        #head__tarjeta{
+            margin-top: 35px;
+            margin-left: 80px;
+        }
+        #icons{
+            margin-left: 80px;
+            margin-top: 45px;
+        }
+        #img__4{
+            height: 0px;
+        }
+        #img4__desktop{
+            z-index: -1;
+        }
+        #btt__submit{
+            margin-bottom: 0px;
+        }
+        #data__input{
+            /* margin: 50px; */
+            height: 598px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        #contenedor__head__tarjeta__e__iconos{
+            width: 100%;
+        }
+    /* *****-----FIN--**--<section id="parte__4" class="partes">------******** */
+
+
+    /* *****-----<footer>------******** */
+        #footer{
+            grid-area: footer;
+            /* grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 5;
+            grid-row-end: 6; */
+        }
+    /* *****-----FIN--**--<footer>------******** */
+
+
+
+
+
+
+
+
+}
+
+
+
+/* corregir fondo azul imagen parte__1 */
+/* corregir tamaño aros MY WORK */
+
